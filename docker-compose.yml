@@ -2,6 +2,6 @@ version: '3.2'
 
 services:
   docker-docker-compose:
-    image: jtim/docker-docker-compose:18.05.0-ce-git-compose-1.21.2
+    image: jtim/docker-docker-compose:18.09.1-ce-git-compose-1.23.1
     build:
-      context: 18.05.0/ce/compose-1.21.2
+      context: 18.09.1/ce/compose-1.23.1
