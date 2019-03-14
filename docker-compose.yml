@@ -1,7 +1,9 @@
 version: '3.2'
 
+
+# Just a simple compose file to build the Docker image
 services:
   docker-docker-compose:
-    image: jtim/docker-docker-compose:18.09.1-ce-git-compose-1.23.1
+    image: jtim/docker-docker-compose:18.09.3-ce-git-compose-1.23.2
     build:
-      context: 18.09.1/ce/compose-1.23.1
+      context: 18.09.3/compose-1.23.2
