@@ -1,12 +1,14 @@
 # Jtim custom Gitlab CI build image with Docker and Docker-compose
 
+Gitlab CI Docker build image running as non root user.
+
 ## Supported tags and respective Dockerfile links
 
 Latest version:
 Docker version: 18.09.6 (with git)
 Docker compose: 1.24.0
 
-* `18.09.6-git-compose-1.24.0`, `18.09.6-git`, `18.09.6`, `18`, `latest` [(18.09.6/compose-1.24.0)](https://github.com/j-tim/docker-docker-compose/blob/master/18.09.6/compose-1.24.0/Dockerfile)  
+* `18.09.6-git-compose-1.24.0`, `18.09.6-git`, `18.09.6`, `18`, `latest` [(18.09.6/compose-1.24.0)](https://github.com/j-tim/docker-docker-compose/blob/master/18.09.6/compose-1.24.0/Dockerfile) 
 
 * `18.09.3-git-compose-1.23.2`, `18.09.3-git`, `18.09.3`, [(18.09.3/compose-1.23.2)](https://github.com/j-tim/docker-docker-compose/blob/master/18.09.3/compose-1.23.2/Dockerfile)  
 
