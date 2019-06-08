@@ -51,3 +51,16 @@ docker-job:
     - docker-compose -v
     - git version
 ```
+
+## Related Docker images
+
+In case you need Docker and docker-compose in combination with Java (OpenJdk) 8 or 11 (AdoptOpenJdk) see: 
+
+* Docker images: [https://hub.docker.com/r/jtim/docker-docker-compose-jdk](https://hub.docker.com/r/jtim/docker-docker-compose-jdk)
+* Source code: [https://github.com/j-tim/docker-docker-compose-jdk](https://github.com/j-tim/docker-docker-compose-jdk)
+
+Including also Maven into the mix? use:
+
+* Docker images: [https://hub.docker.com/r/jtim/docker-docker-compose-jdk-mvn](https://hub.docker.com/r/jtim/docker-docker-compose-jdk-mvn)
+* Source code: [https://github.com/j-tim/docker-docker-compose-jdk-mvn](https://github.com/j-tim/docker-docker-compose-jdk-mvn)
+
