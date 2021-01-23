@@ -7,8 +7,12 @@ Gitlab CI Docker build image running as non root user.
 Latest version:
 Docker version: 20.10.2 
 Docker compose: 1.28.0
+
+Including development tools:
+
 Git: 2.26.2
 Jq: v20200428-28-g864c859e9d
+Pack (Cloud native buildpacks): 0.16.0+git-e0f6c50.build-1898
 
 * `20.10.2-git-compose-1.28.0`, `20.10.2-compose-1.28.0` , `20.10.2-git`, `20.10.2`, `20`, `latest` [(20.10.2/compose-1.28.0)](https://github.com/j-tim/docker-docker-compose/blob/master/20.x/20.10.2/compose-1.28.0/Dockerfile)
 
@@ -53,6 +57,7 @@ docker-job:
     - docker-compose -v
     - git version
     - jq --version
+    - pack --version
 ```
 
 ## Related Docker images
