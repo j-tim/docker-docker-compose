@@ -1,15 +1,27 @@
-version: '3.2'
-
+version: '3.8'
 
 # Just a simple compose file to build the Docker image
 services:
 
+  ######################################################################################################################
+  # Docker 20.x                                                                                                        #
+  # docker-compose build                                                                                               #
+  ######################################################################################################################
+
+  docker-docker-compose-1.28.0:
+    image: jtim/docker-docker-compose:20.10.2-git-compose-1.28.0
+    build:
+      context: 20.x/20.10.2/compose-1.28.0
+
+  ######################################################################################################################
+  # Docker 18.x                                                                                                        #
+  ######################################################################################################################
   docker-docker-compose-1.24.0:
     image: jtim/docker-docker-compose:18.09.6-git-compose-1.24.0
     build:
-      context: 18.09.6/compose-1.24.0
+      context: 18.x/18.09.6/compose-1.24.0
 
   docker-docker-compose-1.23.2:
     image: jtim/docker-docker-compose:18.09.3-git-compose-1.23.2
     build:
-      context: 18.09.3/compose-1.23.2
+      context: 18.x/18.09.3/compose-1.23.2
