@@ -10,7 +10,7 @@ ENV USERNAME=bob-the-builder
 
 RUN apk add --update \
     # https://wiki.alpinelinux.org/wiki/Docker#Docker_Compose
-    py-pip sshpass openssh-client python3-dev libffi-dev openssl-dev gcc libc-dev make && \
+    py-pip sshpass openssh-client python3-dev libffi-dev openssl-dev gcc libc-dev make jq && \
     pip install --no-cache-dir docker-compose==$DOCKER_COMPOSE_VERSION && \
     rm -rf /var/cache/apk/*
 
